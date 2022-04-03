@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "1d9jX2vM3FofQKWfT5dSFL49EFFtcj9Jf2TIRYpn77nLsBMJuSBzWPvTX7bwc/jcEYrEEnR0iPsewi3v4uKZEg==",
+  "success": true,
+  "projectFilePath": "D:\\Kubernetes\\k8s-course-samples\\release-v0.0.3\\hpa\\hpaApi\\hpaApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yue\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\yue\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\yue\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\yue\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\yue\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\yue\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
