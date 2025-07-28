@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hpa", "hpa", "{1968AB30-5012-EDD0-49F8-9A5B5D51A8EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hpaApi", "hpa\hpaApi\hpaApi.csproj", "{8F11A669-D27B-DA3E-7A8E-D7FEA4FA977B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F11A669-D27B-DA3E-7A8E-D7FEA4FA977B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F11A669-D27B-DA3E-7A8E-D7FEA4FA977B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F11A669-D27B-DA3E-7A8E-D7FEA4FA977B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F11A669-D27B-DA3E-7A8E-D7FEA4FA977B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8F11A669-D27B-DA3E-7A8E-D7FEA4FA977B} = {1968AB30-5012-EDD0-49F8-9A5B5D51A8EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B19D35F-5D40-40D7-9CD2-3787F537CD8E}
+	EndGlobalSection
+EndGlobal
