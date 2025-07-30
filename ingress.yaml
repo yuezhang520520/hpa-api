@@ -1,0 +1,29 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: hpaapi-ingress
+  namespace: k8s-demo
+  labels:
+    app: k8s-demo
+  annotations:
+    kubernetes.io/ingress.class: "nginx"
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+spec:
+  rules:
+    - host: ingress.yuezhang.cn
+      http:
+        paths:
+          - path: /hpa(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: hpa-api
+                port:
+                  number: 80
+          - path: /hpa2(/|$)(.*)
+            pathType: Prefix
+            backend:
+              service:
+                name: hpa-api
+                port:
+                  number: 80

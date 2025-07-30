@@ -22,3 +22,4 @@
 /hpa/hpaApi/obj/Debug/netcoreapp8.0/refint/*.dll
 /hpa/hpaApi/obj/*.json
 /hpa/hpaApi/obj/*.cache
+/hpa/hpaApi/obj

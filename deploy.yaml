@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: hpa-api
@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: hpa-api
-        image: 	registry.cn-hangzhou.aliyuncs.com/jessetalk/hap-api
+        image: 	registry.cn-hangzhou.aliyuncs.com/yuezhang/hpa-api:1.0.0
         resources: 
           requests:
             cpu: 200m
